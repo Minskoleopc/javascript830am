@@ -53,10 +53,12 @@ for(let i = 0 ; i < numbers.length ; i++){
     //console.log(i)
     //console.log(numbers[i])
 
-    total = total + numbers[i]
-    //        0   +   11  // 11
-    //        11  +   22  // 33
-    //        33  +   33  // 66
+    total = total + numbers[i] 
+            // 0  +   11 ----- //11
+            // 11 +   22 ----- // 33
+            // 33 +   33 ----- // 66
+
+   
 }
 console.log(total)
 
