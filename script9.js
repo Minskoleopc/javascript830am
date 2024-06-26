@@ -43,6 +43,7 @@ for(let i = 1 ; i <= 10 ; i++){
     console.log(i*2)
 }
 // program 6
+
 for(let i = 2 ; i <= 20 ; i = i + 2){ // 4 ------- 22
     console.log(i)// 2 // 4 -------- 20
 }

@@ -58,7 +58,6 @@ for(let i = 0 ; i < numbers.length ; i++){
             // 11 +   22 ----- // 33
             // 33 +   33 ----- // 66
 
-   
 }
 console.log(total)
 
