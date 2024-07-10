@@ -122,7 +122,3 @@ console.log(q15.join("a"))
 
 
 
-
-
-
-
