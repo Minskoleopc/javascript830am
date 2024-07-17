@@ -89,8 +89,14 @@ cities = ["pune","banglore","kolkata","chennai"]
 
 // slice(), splice() , fill() , sort(), flat()
 
-// 6:15pm
 
+// friday - object 
+
+// sat sun - string
+
+
+
+// 6:15pm
 // monday --- > 8:00 pm , morning 8:30am
 
 
