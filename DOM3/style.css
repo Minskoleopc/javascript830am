@@ -1,0 +1,26 @@
+h1 {
+    color:red;
+    background-color:yellow;
+}
+
+p {
+    color:red;
+    background-color: greenyellow;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+}
+
+.fr {
+    color:red;
+    background-color: yellow;
+    
+}
+.vg {
+    color:green;
+    background-color:yellow;
+}
+
+#two {
+    color:blueviolet
+}
