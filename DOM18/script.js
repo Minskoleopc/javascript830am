@@ -74,9 +74,6 @@ console.log(allLiElements)
 
 
 
-
-
-
     // to add the attribute
     // to retrive the attribute
     // to update the attribute 
