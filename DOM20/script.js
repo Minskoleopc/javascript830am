@@ -12,7 +12,6 @@
 // javascript attribute value retrive 
 
 
-
 // attribute
 
 let para = document.querySelector('p')
