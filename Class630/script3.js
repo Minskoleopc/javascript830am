@@ -211,7 +211,6 @@ console.log(nms)
 //                  0                  1                      2
 //              0      1          0          1          0        1
 let state = [["pune","nagpur"],["jaipur","udaipur"],["kanpur","lucknow"]]
-
 console.log(state[1][0])
 console.log(state[0][1])
 console.log(state[2][1])

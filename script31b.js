@@ -95,6 +95,9 @@ students.forEach(function(el){
 })
 console.log(students)
 
+// 6:30 pm array , string , obj
+// 8:30 am / 8:00pm
+
 
 
 

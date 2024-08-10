@@ -15,6 +15,7 @@ ulList.addEventListener('click',function(event){
     // console.log(event.target)
     // console.log(event.target.tagName)
     // console.log(event.target.className)
+
     if(event.target.tagName == "BUTTON"){
         if(event.target.className == "remove"){
             let li = event.target.parentElement 
@@ -30,7 +31,6 @@ ulList.addEventListener('click',function(event){
             }
         }
         else if(event.target.className == "down"){
-
             let li = event.target.parentElement
             let nextLi = li.nextElementSibling
             let ulList = li.parentElement

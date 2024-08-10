@@ -24,6 +24,7 @@ console.log(chinmay)
 // which is simiar to Parent.prototype
 
 console.log(amol.__proto__ == Person.prototype)
+
 Person.prototype.displayName = function(){
     console.log(this.firstName + this.lastName)
 }

@@ -91,6 +91,6 @@ setB.forEach(function(el){
     console.log(el)
 })
 
-console.log(setB.entries())
-console.log(setB.keys())
-console.log(setB.values())
+// console.log(setB.entries())
+// console.log(setB.keys())
+// console.log(setB.values())
