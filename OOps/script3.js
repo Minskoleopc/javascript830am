@@ -35,3 +35,13 @@ console.log(chinmayT.firstName)
 console.log(chinmayT.lastName)
 console.log(chinmayT.age)
 console.log(chinmayT.salary)
+
+// program 3
+// parent has constructor and child has no contructor
+
+// parent has constructor also child has construtor
+//(single inheritance)
+
+// multilevel interitance
+
+//herarchical interitance

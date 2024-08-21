@@ -74,4 +74,4 @@ chinmay.displaySname()
 
 
 // program 3 - herarchical inheritance
-
+// one parent -- two child 
