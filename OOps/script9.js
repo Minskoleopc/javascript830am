@@ -1,21 +1,23 @@
-// function addition(){
-//     let a = 10 
-//     let b = 20
-//     console.log(a+b)
-//     function addition2(){
-//         let c = 100
-//         let d = 200
-//         console.log(a+b+c+d)
-//         //console.log(a1)
-//         function addition3(){
-//             let a1 = 10
-//             console.log(a+b+c+d+a1)
-//         }
-//         addition3
-//     }
-//     addition2()
-// }
-// addition()
+function addition(){
+    let a = 10 
+    let b = 20
+    console.log(a+b)
+
+    function addition2(){
+        let c = 100
+        let d = 200
+        console.log(a+b+c+d)
+        //console.log(a1)
+        function addition3(){
+            let a1 = 10
+            console.log(a+b+c+d+a1)
+        }
+        addition3
+    }
+    addition2()
+}
+addition()
+
 
 // // lift up state 
 // // derived state
