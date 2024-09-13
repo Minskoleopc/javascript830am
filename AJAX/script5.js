@@ -115,14 +115,82 @@ let pro = new Promise(function(resolve,reject){
 
 //4th
 
-pro.
-then(function(str){
-    console.log(str)
-    return [11,22,33]
-})
-.then(function(arr){
-    console.log(str[0])
-})
+// pro.
+// then(function(str){
+//     console.log(str)
+//     return [11,22,33]
+// })
+// .then(function(arr){
+//     console.log(arr[0])
+//     return arr[2]
+// })
+// .then(function(a){
+//     console.log(a)
+// })
+// .catch(function(str){
+//     console.log(str) 
+// })
+// .finally(function(str){
+//     console.log(str)
+// })
+
+
+// program 4
+function createUser(){
+    return new Promise(function(resolve,reject){
+        setTimeout(function(){
+            resolve("user is created")
+        },3000)
+    })
+}
+function getId(){
+    return new Promise(function(resolve,reject){
+        setTimeout(function(){
+            resolve("id is created")
+        },2000)
+    })
+}
+
+function getInfo(){
+    return new Promise(function(resolve,reject){
+        setTimeout(function(){
+            resolve("info")
+        },1000)
+    })
+}
+
+// createUser()
+// .then(function(str){
+//     console.log(str)
+//     return getId()
+// })
+// .then(function(str){
+//     console.log(str)
+//     return getInfo()
+// })
+// .then(function(str){
+//     console.log(str)
+// })
+// .catch(function(){
+//     console.log("finally is called")
+// })
+// .finally(function(){
+//     console.log("finally is called")
+// })
+
+
+// async  function getInfo2(){
+//     let a = await createUser()
+//     console.log(a)
+//     let b = await getId()
+//     console.log(b)
+//     let c = await getInfo()
+//     console.log(c)
+// }
+// getInfo2()
+
+
+
 
 
 

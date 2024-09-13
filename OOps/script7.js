@@ -62,57 +62,57 @@
 
 // program 2
 // Different class , same method name and same signature
-class WorldBank {
-    save(){
-        console.log("save - worldBank")
-    }
-    loan(){
-        console.log("loan - worldbank")
-    }
-}
-class SBI extends WorldBank {
-    save(){
-        console.log("save -SBI 10%")
-    }
-    loan(){
-        console.log("loan -SBI 10%")
-    }
+// class WorldBank {
+//     save(){
+//         console.log("save - worldBank")
+//     }
+//     loan(){
+//         console.log("loan - worldbank")
+//     }
+// }
+// class SBI extends WorldBank {
+//     save(){
+//         console.log("save -SBI 10%")
+//     }
+//     loan(){
+//         console.log("loan -SBI 10%")
+//     }
 
-}
-let sbiNagpur = new SBI()
-sbiNagpur.loan()
-sbiNagpur.save()
+// }
+// let sbiNagpur = new SBI()
+// sbiNagpur.loan()
+// sbiNagpur.save()
 
 
 // program 3
 
-class Human {
-    talk(){
-        console.log("hello hi")
-    }
-}
-class Duck {
-    talk(){
-        console.log('quack quack')
-    }
-}
+// class Human {
+//     talk(){
+//         console.log("hello hi")
+//     }
+// }
+// class Duck {
+//     talk(){
+//         console.log('quack quack')
+//     }
+// }
 
-class Dog {
-    bark(){
-        console.log("bow bow")
-    }
-}
+// class Dog {
+//     bark(){
+//         console.log("bow bow")
+//     }
+// }
 
-function call_talk(obj){
-    obj.talk()
-}
-aa = new Human()
-bb = new Duck()
-cc = new Dog()
+// function call_talk(obj){
+//     obj.talk()
+// }
+// aa = new Human()
+// bb = new Duck()
+// cc = new Dog()
 
-call_talk(aa)
-call_talk(bb)
-call_talk(cc)
+// call_talk(aa)
+// call_talk(bb)
+// call_talk(cc)
 
 
 
