@@ -131,6 +131,22 @@ Promise.any([proOne,protwo,prothree,profour])
 })
 
 
+// promise.all([])
+// Promise.allSettle([])
+// Promise.race([])
+// Promise.any([])
+
+
+// Async await 
+
+// API 
+
+
+
+
+
+
+
 
 
 
