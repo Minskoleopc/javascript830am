@@ -154,6 +154,6 @@ function userTimeOut() {
 // })
 
 // React --
-// Monday --- typescript  - cypress / playwright
 // Es6 new concepts 
+// Monday --- typescript  - cypress / playwright
 // React 
